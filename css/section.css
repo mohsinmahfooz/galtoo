@@ -1,0 +1,33 @@
+.country-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.country-tabs .tab {
+    text-decoration: none;
+    color: #1f2937;
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    padding: 16px 38px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.country-tabs .tab:hover {
+    background: #0a3478;
+    color: #ffffff;
+    border-color: #0a3478;
+}
+
+.country-tabs .tab.active {
+    background: #0a3478;
+    color: #ffffff;
+    border-color: #0a3478;
+    box-shadow: 0 4px 10px rgba(10, 52, 120, 0.2);
+}
