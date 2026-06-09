@@ -106,3 +106,71 @@
   padding: 60px 40px; 
   color: #ffffff; 
 }
+
+/* Right Side Image Block */
+        .side-image-container {
+            border-radius: 16px;
+            overflow: hidden;
+            height: 260px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        .side-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Contact Details Rows */
+        .info-strip {
+            background-color: #f4f7fc;
+            border-radius: 12px;
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+
+        .info-icon-box {
+            background-color: #0b2545;
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+            font-size: 0.95rem;
+        }
+
+        .info-title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #0b2545;
+            margin: 0;
+        }
+
+        .info-value {
+            font-size: 1.0rem;
+            color: #64748b;
+            margin: 0;
+        }
+		
+		/* Image Grid layouts */
+        .img-cover {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 14px;
+        }
+        .hero-badge-img {
+            position: relative;
+        }
+        .hero-badge-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+        }
