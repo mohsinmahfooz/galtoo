@@ -2216,8 +2216,9 @@ header.main-header .header-sticky.active{
 }
 
 .testimonial-item{
-	background: var(--secondary-color);
+	
 	padding: 40px;
+	
 }
 
 .testimonial-header{
@@ -2230,7 +2231,7 @@ header.main-header .header-sticky.active{
 
 .author-image figure,
 .author-image img{
-	max-width: 60px;
+	max-width: 80px;
 	border-radius: 50%;
 }
 
@@ -2702,7 +2703,17 @@ header.main-header .header-sticky.active{
 /************************************/
 /***     17. About Us Page css    ***/
 /************************************/
-
+.cpage-header{
+	
+	background: linear-gradient(rgba(13, 71, 161, 0.6), rgba(13, 71, 161, 0.6)), 
+                        url('../images/contact-banner.png') no-repeat center center;
+            background-size: cover;
+            border-radius: 20px;
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+}
 .page-header{
 	background: url('../images/page-header-bg.svg'), var(--accent-color);
 	background-repeat: no-repeat;
@@ -6139,4 +6150,3 @@ header.main-header .header-sticky.active{
     box-shadow: 0 4px 10px rgba(10, 52, 120, 0.2);
 }
 
-}
